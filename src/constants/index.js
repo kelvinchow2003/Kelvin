@@ -105,7 +105,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sept 2023 - Sept 2024",
     points: [
-      "Designed and developed a secure client intake web portal to streamline data management and communication.",
+      "Designed and implemented a secure client intake web portal,  enhancing data management and communication efficiency.",
       "Created SQL stored procedures for dynamic PDF generation, integrating with Java and Python systems.",
       "Delivered in an agile development environment, contributing to sprint planning and iterative improvements.",
       "Participating in code reviews and providing constructive feedback to other developers.",
