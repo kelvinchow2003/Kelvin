@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -30,11 +32,13 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+// template_0jguqde tem
+// service_ejz6faa ser
+// 5kvX6vLxL9q-0oQDW public
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_ejz6faa',
+        'template_0jguqde',
         {
           from_name: form.name,
           to_name: "Kelvin Chow",
@@ -42,7 +46,7 @@ const Contact = () => {
           to_email: "kelvinchow2014@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        '5kvX6vLxL9q-0oQDW'
       )
       .then(
         () => {
@@ -72,7 +76,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={styles.sectionSubText}>Get in touch kelvin1.chow@torontomu.ca</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
