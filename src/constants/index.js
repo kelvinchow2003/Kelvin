@@ -16,9 +16,15 @@ import {
   figma,
   docker,
   meta,
+  green,
+  bothwell,
+  markham,
   starbucks,
   tesla,
   shopify,
+  stock,
+  website,
+  shopping,
   carrent,
   jobit,
   tripguide,
@@ -95,40 +101,40 @@ const experiences = [
   {
     title: "Junior Developer/IT Intern",
     company_name: "Green and Spiegel LLP",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    icon: green,
+    iconBg: "#E6DEDD",
+    date: "Sept 2023 - Sept 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Designed and developed a secure client intake web portal to streamline data management and communication.",
+      "Created SQL stored procedures for dynamic PDF generation, integrating with Java and Python systems.",
+      "Delivered in an agile development environment, contributing to sprint planning and iterative improvements.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
     title: "IT Intern",
     company_name: "Bothwell Accurate",
-    icon: tesla,
+    icon: bothwell,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2023 - Sept 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Delivered technical support to a diverse workforce, resolving hundreds of hardware and software issues efficiently.",
+      "Automated onboarding processes for new employees by developing robust shell scripts.",
+      "Enhanced IT infrastructure by identifying and implementing process improvements.",
+      "Collaborated with cross-functional teams to ensure seamless technology integration.",
     ],
   },
   {
     title: "Aquatic Supervisor",
     company_name: "City Of Markham",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    icon: markham,
+    iconBg: "#E6DEDD",
+    date: "Sept 2019 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Supervised the safety of over 100 guests daily, ensuring strict adherence to health and safety standards.",
+      "Provided leadership to lifeguards and swim instructors, maintaining operational excellence and compliance.",
+      "Conducted safety audits and emergency response drills, achieving a high standard of readiness.",
+      "Delivered exceptional customer service, fostering a safe and welcoming community environment.",
     ],
   },
  
@@ -148,16 +154,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Personal Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to view my persoal portfolio. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "HTMLCSSJS",
         color: "green-text-gradient",
       },
       {
@@ -165,50 +171,43 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: website,
+    source_code_link: "https://github.com/kelvinchow2003/Personal-Website-2025",
   },
   {
-    name: "Job IT",
+    name: "Stock Market System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A stock market simulator utilizing an API that allows purchasing and selling stocks, viewing stock price history charts, and balancing accounts.",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "SQL",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Jira",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: stock,
+    source_code_link: "",
   },
   {
-    name: "Trip Guide",
+    name: "Item shopping and shipping program",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A shopping application where users can view a catalog of products, purchase and order items.",
     tags: [
       {
-        name: "nextjs",
+        name: "Java",
         color: "blue-text-gradient",
       },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+    
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: shopping,
+    source_code_link: "https://github.com/kelvinchow2003/CPS209",
   },
 ];
 
